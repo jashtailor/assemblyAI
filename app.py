@@ -6,6 +6,8 @@ import time
 import requests
 from zipfile import ZipFile
 
+api_key = '7dceeb758cb7442481d1927aa97a4ad6'
+
 st.markdown('# 📝 **Transcriber App**')
 bar = st.progress(0)
 
@@ -114,7 +116,7 @@ def transcribe_yt():
 # The App
 
 # 1. Read API from text file
-api_key = '7dceeb758cb7442481d1927aa97a4ad6'
+
 
 #st.info('1. API is read ...')
 st.warning('Awaiting URL input in the sidebar.')
